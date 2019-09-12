@@ -235,7 +235,7 @@ namespace MouseSpotLight
 
             ReDraw();
         }
-
+        #region input
         protected override void WndProc(ref Message m)
         {
             base.WndProc(ref m);
@@ -320,6 +320,20 @@ namespace MouseSpotLight
             }
             settings.Save();
             CalculateLightSize();
+        }
+        #endregion
+
+        private void FrmMask_SizeChanged(object sender, EventArgs e)
+        {
+            if(bmpMask != null)
+            {
+                bmpMask = new Bitmap(this.Width, this.Height);
+                graphMask = Graphics.FromImage(bmpMask);
+                graphMask.SmoothingMode = SmoothingMode.AntiAlias;
+                graphMask.CompositingMode = CompositingMode.SourceCopy;
+
+                ReDraw();
+            }
         }
 
         private void FrmMask_MouseMove(object sender, MouseEventArgs e)

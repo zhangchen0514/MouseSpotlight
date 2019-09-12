@@ -30,6 +30,7 @@
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmMask_Load);
+            this.SizeChanged += new System.EventHandler(this.FrmMask_SizeChanged);
             this.VisibleChanged += new System.EventHandler(this.FrmMask_VisibleChanged);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmMask_KeyDown);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FrmMask_MouseClick);
