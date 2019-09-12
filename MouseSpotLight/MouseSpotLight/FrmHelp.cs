@@ -32,7 +32,7 @@ namespace MouseSpotLight
 
         private void linkLblHome_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/zhangchen0514/MouseSpotLight");
+            Process.Start("https://github.com/zhangchen0514/MouseSpotlight");
         }
 
         private void FrmHelp_Load(object sender, EventArgs e)

@@ -293,7 +293,7 @@ namespace MouseSpotLight
                 }
                 settings.size -= 1;
             }
-            else if (e.KeyCode == Keys.A)
+            else if (e.KeyCode == Keys.S)
             {
                 if (settings.aspect >= ASPECT_MAX)
                 {
@@ -301,7 +301,7 @@ namespace MouseSpotLight
                 }
                 settings.aspect += 1;
             }
-            else if (e.KeyCode == Keys.S)
+            else if (e.KeyCode == Keys.A)
             {
                 if (settings.aspect <= ASPECT_MIN)
                 {
