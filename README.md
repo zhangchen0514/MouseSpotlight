@@ -1,5 +1,6 @@
 # Mouse Spotlight
-Spotlight mouse cursor for presentation
+Spotlight mouse cursor for presentation  
+[Download](https://github.com/zhangchen0514/MouseSpotlight/releases)
 
 # Screenshot
 ![](img/README_2019-09-13-20-23-16.png)
