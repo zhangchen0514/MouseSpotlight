@@ -1,4 +1,4 @@
-﻿namespace MouseSpotLight
+﻿namespace MouseSpotlight
 {
     partial class FrmMask
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace MouseSpotLight
+namespace MouseSpotlight
 {
     class Win32
     {

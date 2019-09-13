@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MouseSpotLight
+namespace MouseSpotlight
 {
     public partial class FrmHelp : Form
     {

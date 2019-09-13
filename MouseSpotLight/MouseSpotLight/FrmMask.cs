@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace MouseSpotLight
+namespace MouseSpotlight
 {
     public partial class FrmMask : Form
     {
