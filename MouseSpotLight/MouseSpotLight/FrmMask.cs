@@ -95,7 +95,7 @@ namespace MouseSpotlight
             int x = p.X - lightW / 2;
             int y = p.Y - lightH / 2;
 
-            graphMask.FillRectangle(new SolidBrush(Color.FromArgb(200, Color.Black)), -1, -1, this.Width+1, this.Height+1);
+            graphMask.FillRectangle(new SolidBrush(Color.FromArgb(200, Color.Black)), -10, -10, this.Width+20, this.Height+20);
 
             //long t = DateTimeOffset.Now.ToUnixTimeMilliseconds();
             //for(int i = 8; i > 0; i--)
